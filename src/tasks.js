@@ -40,8 +40,8 @@ const packageJson = requireJson("../package.json");
 
 // Global constants
 const builderDir = new URL("..", import.meta.url).pathname;
-const builderAssetsDir = builderDir + "/assets";
-const builderNodeModulesDir = builderDir + "/node_modules";
+const builderAssetsDir = builderDir + "assets";
+const builderNodeModulesDir = builderDir + "node_modules";
 
 export const compileProjectTemplate = {
   title: "Compiling project template",
